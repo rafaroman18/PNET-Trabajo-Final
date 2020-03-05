@@ -1,8 +1,7 @@
 {
-    "name": "PNET",
+    "name": "pnet",
     "version": "1.0.0",
     "description": "PNET HTML structure",
-    "main": "index.js",
     "author": "B. Romero & R. Roman",
     "license": "MIT",
     "devDependencies": {
