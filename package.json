@@ -5,10 +5,14 @@
     "author": "B. Romero & R. Roman",
     "license": "MIT",
     "devDependencies": {
-        "parcel": "^2.0.0-alpha.3.2"
+        "core-js-compat": "^3.4.7"
     },
     "scripts": {
-        "start": "parcel src/index.html",
-        "build": "parcel build src/index.html"
+        "start": "parcel src/programa.html",
+        "build": "parcel build src/programa.html"
+    },
+    "dependencies": {
+        "core-js": "3",
+        "parcel": "^1.12.4"
     }
 }
