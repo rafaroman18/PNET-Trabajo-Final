@@ -152,13 +152,14 @@ tr.fila {
 }
 
 th.columna {
-    padding-left: 0px;
-    padding-right: 0px;
+    text-align: left;
+    padding-left: 20px;
 }
 
 td.columna {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
+    text-align: left;
 }
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
