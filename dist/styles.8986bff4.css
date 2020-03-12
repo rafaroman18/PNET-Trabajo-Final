@@ -132,7 +132,7 @@ footer {
     flex-direction: row;
 }
 
-.hechosblanco {
+.hechosnegro {
     flex: 1;
     margin-left: 3%;
     color: black;
@@ -147,6 +147,18 @@ footer {
     flex: 3;
 }
 
-.tabladehechos {}
+tr.fila {
+    color: black;
+}
+
+th.columna {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+td.columna {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
