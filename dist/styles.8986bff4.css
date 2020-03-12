@@ -162,4 +162,24 @@ td.columna {
     text-align: left;
 }
 
+.alojamiento {
+    flex: 1;
+    margin-left: 3%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.celebracion {
+    flex: 1;
+    background-color: #FFD600;
+    display: flex;
+}
+
+.transporte {
+    flex: 1;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
 /*# sourceMappingURL=/styles.8986bff4.css.map */

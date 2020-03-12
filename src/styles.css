@@ -161,3 +161,23 @@ td.columna {
     padding-right: 40px;
     text-align: left;
 }
+
+.alojamiento {
+    flex: 1;
+    margin-left: 3%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.celebracion {
+    flex: 1;
+    background-color: #FFD600;
+    display: flex;
+}
+
+.transporte {
+    flex: 1;
+    background-color: #FFFFFF;
+    display: flex;
+}
