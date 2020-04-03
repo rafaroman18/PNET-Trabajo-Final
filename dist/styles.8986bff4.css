@@ -89,11 +89,28 @@
         flex-direction: column-reverse;
     }
     
+    .alojamiento {
+        flex: 1;
+        background-color: #353535;
+        display: flex;
+    }
+    
+    .celebracion {
+        flex: 1;
+        background-color: #FFD600;
+        display: flex;
+    }
+    
+    .transporte {
+        flex: 1;
+        background-color: #FFFFFF;
+        display: flex;
+    }
+    
     .asistente1 {
         flex: 1;
         background-color: #353535;
         display: flex;
-        flex-direction: row;
     }
     
     .asistente2 {
@@ -136,6 +153,16 @@
         color: black;
     }
     
+    .imgLocalizacion {
+        flex: 1;
+    }
+    
+    .descrLocal {
+        flex: 1;
+        margin-left: 3%;
+        margin-right: 10%;
+    }
+    
     .imagenasistente {
         flex: 1;
     }
@@ -162,20 +189,21 @@
     
     .alojamiento {
         flex: 1;
-        margin-left: 3%;
-        color: black;
+        color: white;
         display: flex;
         flex-direction: row;
     }
     
     .celebracion {
         flex: 1;
+        color: black;
         background-color: #FFD600;
         display: flex;
     }
     
     .transporte {
         flex: 1;
+        color: black;
         background-color: #FFFFFF;
         display: flex;
     }
