@@ -1,211 +1,191 @@
-    html {
-        width: 100%;
-        height: 100%;
-    }
-    
-    body {
-        flex: 1 0 100%;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Lato', sans-serif;
-        height: 100%;
-        margin: 0;
-    }
-    
-    header {
-        background-color: black;
-        height: 100%;
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0;
-        align-items: center;
-    }
-    
-    .logo {
-        float: left;
-        width: 60%;
-        vertical-align: middle;
-        margin-left: 3%;
-    }
-    
-    .menu {
-        float: right;
-        width: 40%;
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-right: 3%;
-    }
-    
-    a.logolink {
-        color: white;
-        background-color: transparent;
-        text-decoration: none;
-        vertical-align: middle;
-    }
-    
-    a.menulink {
-        color: white;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    
-    a.footlink {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    
-    main {
-        background-color: #353535;
-        max-height: 100%;
-        flex: 7.5;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 0;
-    }
-    
-    footer {
-        background-color: #D2D7DF;
-        height: 130px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .contact {
-        margin-left: 3%;
-    }
-    
-    .copy {
-        margin-right: 3%;
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    
-    .alojamiento {
-        flex: 1;
-        background-color: #353535;
-        display: flex;
-    }
-    
-    .celebracion {
-        flex: 1;
-        background-color: #FFD600;
-        display: flex;
-    }
-    
-    .transporte {
-        flex: 1;
-        background-color: #FFFFFF;
-        display: flex;
-    }
-    
-    .asistente1 {
-        flex: 1;
-        background-color: #353535;
-        display: flex;
-    }
-    
-    .asistente2 {
-        flex: 1;
-        background-color: #FFD600;
-        display: flex;
-    }
-    
-    .asistente3 {
-        flex: 1;
-        background-color: #FFFFFF;
-        display: flex;
-    }
-    
-    .asistblanco {
-        flex: 1;
-        margin-left: 3%;
-        color: white;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .hechosblanco {
-        flex: 1;
-        margin-left: 3%;
-        color: white;
-    }
-    
-    .asistnegro {
-        flex: 1;
-        margin-left: 3%;
-        color: black;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .hechosnegro {
-        flex: 1;
-        margin-left: 3%;
-        color: black;
-    }
-    
-    .imgLocalizacion {
-        flex: 1;
-    }
-    
-    .descrLocal {
-        flex: 1;
-        margin-left: 3%;
-        margin-right: 10%;
-    }
-    
-    .imagenasistente {
-        flex: 1;
-    }
-    
-    .descripcionasistente {
-        margin-top: 8%;
-        flex: 3;
-    }
-    
-    tr.fila {
-        color: black;
-    }
-    
-    th.columna {
-        text-align: left;
-        padding-left: 20px;
-    }
-    
-    td.columna {
-        padding-left: 20px;
-        padding-right: 40px;
-        text-align: left;
-    }
-    
-    .alojamiento {
-        flex: 1;
-        color: white;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .celebracion {
-        flex: 1;
-        color: black;
-        background-color: #FFD600;
-        display: flex;
-    }
-    
-    .transporte {
-        flex: 1;
-        color: black;
-        background-color: #FFFFFF;
-        display: flex;
-    }
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            flex: 1 0 100%;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Lato', sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+        
+        header {
+            background-color: black;
+            height: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0;
+            align-items: center;
+        }
+        
+        .logo {
+            float: left;
+            width: 60%;
+            vertical-align: middle;
+            margin-left: 3%;
+        }
+        
+        .menu {
+            float: right;
+            width: 40%;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-right: 3%;
+        }
+        
+        a.logolink {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        
+        a.menulink {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        a.footlink {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        main {
+            background-color: #353535;
+            max-height: 100%;
+            flex: 7.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0;
+        }
+        
+        footer {
+            background-color: #D2D7DF;
+            height: 130px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .contact {
+            margin-left: 3%;
+        }
+        
+        .copy {
+            margin-right: 3%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        /*Estilos de programa*/
+        
+        .asistente1 {
+            flex: 1;
+            background-color: #353535;
+            display: flex;
+            color: white;
+        }
+        
+        .asistente2 {
+            flex: 1;
+            background-color: #FFD600;
+            display: flex;
+            color: black;
+        }
+        
+        .asistente3 {
+            flex: 1;
+            background-color: #FFFFFF;
+            display: flex;
+            color: black;
+        }
+        
+        .asist {
+            flex: 1;
+            margin-left: 3%;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .hechos {
+            flex: 1;
+            margin-left: 3%;
+        }
+        
+        .imagenasistente {
+            flex: 1;
+        }
+        
+        .descripcionasistente {
+            margin-top: 8%;
+            flex: 3;
+        }
+        
+        .tabla {
+            padding: 9px;
+            border: solid 1px;
+            border-color: black;
+            color: black;
+            background-color: white;
+        }
+        
+        tr.fila {
+            color: black;
+        }
+        
+        th.columna {
+            text-align: left;
+            padding-left: 20px;
+        }
+        
+        td.columna {
+            padding-left: 20px;
+            padding-right: 40px;
+            padding-top: 8px;
+            text-align: left;
+        }
+        /*Estilos de Localizacion*/
+        
+        .alojamiento {
+            flex: 1;
+            color: white;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .celebracion {
+            flex: 1;
+            color: black;
+            background-color: #FFD600;
+            display: flex;
+        }
+        
+        .transporte {
+            flex: 1;
+            color: black;
+            background-color: #FFFFFF;
+            display: flex;
+        }
+        
+        .imgLocalizacion {
+            flex: 1;
+        }
+        
+        .descrLocal {
+            flex: 1;
+            margin-left: 3%;
+            margin-right: 10%;
+        }
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
