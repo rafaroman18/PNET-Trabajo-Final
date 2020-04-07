@@ -5,7 +5,7 @@
     "author": "B. Romero & R. Roman",
     "license": "MIT",
     "devDependencies": {
-        "core-js-compat": "^3.4.7"
+        "core-js-compat": "^3.6.4"
     },
     "scripts": {
         "start": "parcel src/programa.html",
