@@ -1,4 +1,6 @@
 node_modules
+src/API/node_modules
 .parcel-cache
 .cache
 dist
+src/API/.env
