@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/wsinvocations.js"></script>
+    <meta charset="utf-8" />
+    <title>Festival Mobee Admin Page</title>
+    <link rel="stylesheet" href="stylesAdmin.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<!--CUERPO-->
+
+<body>
+
+    <!--CABECERA-->
+    <header>
+        <div class="logo">
+            <a class="logolink" href="./index.html"><img style="vertical-align: center;" src="images/mobeelogo.png" alt="Mobee Festival"></a>
+        </div>
+
+        <div class="menu">
+            <h3 style="color: white;">Página ADMIN para modificar los asistentes</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="grupo">
+            <input class="buttons" type="button" value="Mostrar un asistente por su ID " onclick="getAsistente($('#asistenteText').val()) " />
+
+            <input class="buttons" type="button" value="Eliminar un asistente por su ID " onclick="deleteAsistente($('#asistenteText').val()) " />
+
+            <input class="text" type="text" id="asistenteText" value="Inserte el ID para eliminar un asistente" />
+        </div>
+        <p></p>
+
+        <div class="grupo">
+            <input class="buttons" type="button" value="Mostrar todos los asistentes" onclick="getAsistentes()" />
+
+            <input class="buttons" type="button" value="Eliminar todos los asistentes " onclick="deleteAsistentes() " />
+        </div>
+
+        <p></p>
+
+        <div class="grupo2">
+            <input class="buttons2" type="button" value="Anadir uno o varios asistentes " onclick="postAsistentes($('#postasistentesText').val()) " />
+            <textarea class="text2" id="postasistentesText"> </textarea>
+        </div>
+        <p></p>
+
+        <h3 class="resultado" id="res"></h3>
+
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h4>Contacto</h4>
+            <strong>Mail:</strong> <a class="footlink " href="mailto:mobee@hotmail.com ">mobee@hotmail.com</a>
+        </div>
+        <div class="copy">
+            <p>
+                Copyright 2020 &copy; Universidad de Cádiz - Cádiz, España
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
