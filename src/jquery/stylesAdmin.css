@@ -143,15 +143,13 @@
         margin-right: 3%;
         margin-bottom: 3%;
         background-color: white;
-        display: flex;
-        flex-direction: row;
     }
     
     .asistente {
         background-color: #FFD600;
         border: solid;
         padding: 1%;
-        width: 30%;
+        flex: 1;
     }
     
     .users {
